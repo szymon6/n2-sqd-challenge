@@ -1,0 +1,57 @@
+{
+  "energy": -108.94940154525258,
+  "dims": [
+    300,
+    300
+  ],
+  "spin_square": 0.9168452794785378,
+  "seconds": 962.8046924259979,
+  "checkpoint_cycle": null,
+  "history": [
+    {
+      "phase": "refine-0",
+      "energy": -108.94940146955797,
+      "steps": []
+    },
+    {
+      "phase": "cycle-1",
+      "energy_after_oo": -108.94940154524437,
+      "energy_after_reselect": -108.94940154525258,
+      "oo_seconds": 95.15334166100365,
+      "oo_converged": true,
+      "reselect_steps": [
+        {
+          "energy": -108.94939547740948,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 776.7311730080037
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "t": 64.15891535700212,
+      "message": "after initial grow-prune: E = -108.949401",
+      "energy": -108.94940146955797,
+      "phase": "refine-0"
+    },
+    {
+      "t": 179.46821833000286,
+      "message": "cycle 1 OO: E = -108.949402 (casscf -108.949402, converged=True, 95 s)",
+      "energy": -108.94940154524437,
+      "phase": "oo-1",
+      "casscf_energy": -108.94940154478046,
+      "converged": true,
+      "seconds": 95.15334166100365
+    },
+    {
+      "t": 962.6527410280032,
+      "message": "cycle 1 done: E = -108.949402 (gain 0.00 mHa)",
+      "energy": -108.94940154525258,
+      "phase": "cycle-1"
+    }
+  ]
+}

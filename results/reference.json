@@ -1,0 +1,53 @@
+{
+  "method": "DMRG (block2, SU(2), Fiedler ordering)",
+  "max_bond_dimension": 1000,
+  "e_dmrg": -108.98165889716414,
+  "reverse_bond_dims": [
+    1000,
+    750,
+    500
+  ],
+  "reverse_energies": [
+    -108.9817143691,
+    -108.9814054615,
+    -108.98051088
+  ],
+  "reverse_discarded_weights": [
+    8.56891e-06,
+    1.85999e-05,
+    4.35164e-05
+  ],
+  "seconds": 6099.041908979416,
+  "orbital_order": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    9,
+    8,
+    15,
+    7,
+    2,
+    1,
+    0,
+    5,
+    6,
+    3,
+    4,
+    25,
+    16,
+    18,
+    17,
+    24,
+    23,
+    19,
+    20,
+    21,
+    22
+  ],
+  "e_dmrg_extrapolated": -108.9820282287848,
+  "e_dmrg_extrapolation_uncertainty": 0.00015692984239734642,
+  "e_hf": -108.33058275365991,
+  "reverse_source": "logs/dmrg_reference.log"
+}

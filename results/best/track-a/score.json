@@ -1,0 +1,74 @@
+{
+  "energy": -108.902027,
+  "energy_raw": -108.9020268540958,
+  "claimed_energy": -108.90202686408318,
+  "matches": true,
+  "dims": [
+    300,
+    300
+  ],
+  "seconds_solve": 11.991441499965731,
+  "gap_to_reference_mha": 80.00122878479488,
+  "reference_label": "DMRG extrapolated (estimate)",
+  "below_hf_mha": 571.4442463400928,
+  "below_ccsd_mha": -7.4936586079985545,
+  "within_chemical_accuracy": false,
+  "grader_energy": -108.902027,
+  "grader_agrees": true,
+  "seconds_total": 24.44189658301184,
+  "result": "output/5-track-a-deep-oo/T1-deep-oo-from-S5/result.npz",
+  "meta": {
+    "id": "T1-deep-oo-from-S5",
+    "track": "A",
+    "stage": "5-track-a-deep-oo",
+    "description": "SQD loop (qiskit-addon-sqd) on 100000 MPS shots, 6 OO cycles, reselect=sqd, pinned=100",
+    "command": "python -m n2sqd.tracka --out output/5-track-a-deep-oo/T1-deep-oo-from-S5 --samples results/samples/shots100000/samples_bd128_s142.npz --samples-per-batch 1000 --num-batches 5 --max-iterations 6 --start file:output/2-track-a-samples/S5-pinned100-oo-sqd-from-S4/result.npz --orbitals file:output/2-track-a-samples/S5-pinned100-oo-sqd-from-S4/orbitals.npy --pinned-reference 100 --oo-cycles 6 --oo-macro 60 --reselect sqd --carry-fraction 0.5 --seed 342",
+    "config": {
+      "out": "output/5-track-a-deep-oo/T1-deep-oo-from-S5",
+      "samples": "results/samples/shots100000/samples_bd128_s142.npz",
+      "max_dim": 300,
+      "num_batches": 5,
+      "samples_per_batch": 1000,
+      "max_iterations": 6,
+      "carryover_threshold": 0.0001,
+      "symmetrize_spin": true,
+      "pinned_reference": 100,
+      "oo_cycles": 6,
+      "oo_macro": 60,
+      "reselect": "sqd",
+      "carry_fraction": 0.5,
+      "seed": 342,
+      "orbitals": "file:output/2-track-a-samples/S5-pinned100-oo-sqd-from-S4/orbitals.npy",
+      "start": "file:output/2-track-a-samples/S5-pinned100-oo-sqd-from-S4/result.npz",
+      "omp_num_threads": "3",
+      "git_commit": "df75cec"
+    },
+    "sampling": {
+      "simulator": "aer matrix_product_state",
+      "bond_dim": 128,
+      "truncation_threshold": 1e-10,
+      "seed": 142,
+      "shots": 100000,
+      "ops": {
+        "rz": 1600,
+        "rxx": 860,
+        "ryy": 860,
+        "cp": 74,
+        "u1": 72,
+        "measure": 52,
+        "p": 28,
+        "x": 10,
+        "barrier": 1
+      },
+      "depth": 159
+    },
+    "pool_statistics": {
+      "raw_valid_unique_alpha": 4110,
+      "raw_valid_unique_beta": 5126,
+      "final_alpha_in_raw": 298,
+      "final_beta_in_raw": 298
+    },
+    "spin_square": 0.22122659490884672,
+    "seconds": 6015.891885957972
+  }
+}

@@ -1,0 +1,5 @@
+Recomputing the energy of best_subspace (up to two minutes)...
+artifact: results/best/track-a/result.npz
+strings per spin: 300 / 300; claimed -108.902027; recomputed -108.902027; matches=True; offline grader agrees=True
+gap to the DMRG reference: 80.0 mHa; below CCSD by -7.5 mHa
+dry run: nothing sent (pass --submit --email <team email> to submit)

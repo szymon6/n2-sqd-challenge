@@ -1,0 +1,55 @@
+{
+  "energy": -108.949402,
+  "energy_raw": -108.94940154434141,
+  "claimed_energy": -108.94940154525258,
+  "matches": true,
+  "dims": [
+    300,
+    300
+  ],
+  "seconds_solve": 63.40936518599483,
+  "gap_to_reference_mha": 32.62622878479249,
+  "reference_label": "DMRG extrapolated (estimate)",
+  "below_hf_mha": 618.8192463400952,
+  "below_ccsd_mha": 39.88134139200383,
+  "within_chemical_accuracy": false,
+  "grader_energy": -108.949402,
+  "grader_agrees": true,
+  "seconds_total": 121.92331898200064,
+  "result": "output/7-other-basins/V1-polish-U6-dmrg-no-chain/result.npz",
+  "meta": {
+    "id": "V1-polish-U6-dmrg-no-chain",
+    "track": "B",
+    "stage": "7-other-basins",
+    "description": "grow-prune + OO (6 cycles), start file:output/6-symmetry-breaking/U6-dmrg-no-chain/result.npz, from output/6-symmetry-breaking/U6-dmrg-no-chain/orbitals.npy",
+    "command": "python -m n2sqd.trackb --out output/7-other-basins/V1-polish-U6-dmrg-no-chain --start file:output/6-symmetry-breaking/U6-dmrg-no-chain/result.npz --orbitals file:output/6-symmetry-breaking/U6-dmrg-no-chain/orbitals.npy --refine-iterations 0 --oo-cycles 6 --oo-macro 80 --reselect-iterations 2 --max-new 700 --prune-steps 4 --select-cutoff 5e-4 --ci-cutoff 5e-4 --cycle-tol 1e-5",
+    "config": {
+      "out": "output/7-other-basins/V1-polish-U6-dmrg-no-chain",
+      "start": "file:output/6-symmetry-breaking/U6-dmrg-no-chain/result.npz",
+      "orbitals": "file:output/6-symmetry-breaking/U6-dmrg-no-chain/orbitals.npy",
+      "budget": 300,
+      "select_cutoff": 0.0005,
+      "ci_cutoff": 0.0005,
+      "max_new": 700,
+      "refine_iterations": 0,
+      "refine_tol": 0.0001,
+      "oo_cycles": 6,
+      "oo_macro": 80,
+      "reselect_iterations": 2,
+      "cycle_tol": 1e-05,
+      "dmrg_rdm": "results/dmrg_rdm1.npy",
+      "rank_new": true,
+      "prune": "weight",
+      "asymmetric": false,
+      "prune_steps": 4,
+      "omp_num_threads": "4",
+      "git_commit": "187a3cb"
+    },
+    "spin_square": 0.9168452794785378,
+    "seconds": 962.8046924259979,
+    "orbital_note": {
+      "orbitals": "from output/6-symmetry-breaking/U6-dmrg-no-chain/orbitals.npy"
+    },
+    "checkpoint_cycle": null
+  }
+}

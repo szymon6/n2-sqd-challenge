@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.egg-info/
+.coverage
+htmlcov/
+data/
+logs/
+output/
+.obsidian/

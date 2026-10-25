@@ -1,0 +1,27 @@
+{
+  "energy": -108.757711,
+  "energy_raw": -108.75771064026121,
+  "claimed_energy": -108.75771064026121,
+  "matches": true,
+  "dims": [
+    300,
+    300
+  ],
+  "seconds_solve": 18.315658916020766,
+  "gap_to_reference_mha": null,
+  "reference_label": "none",
+  "below_hf_mha": 427.1282463400041,
+  "below_ccsd_mha": -151.809658608002,
+  "within_chemical_accuracy": null,
+  "grader_energy": -108.757711,
+  "grader_agrees": true,
+  "seconds_total": 36.64216433302499,
+  "result": "results/baselines/lab-reference-300.npz",
+  "meta": {
+    "id": "lab-reference-300",
+    "track": "baseline",
+    "description": "lab Exercise 4: first 300 lowest-excitation-rank strings per spin",
+    "command": "python -m n2sqd.baselines --only lab-reference --ref-size 300",
+    "seconds": 21.788718041963875
+  }
+}

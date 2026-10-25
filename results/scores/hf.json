@@ -1,0 +1,27 @@
+{
+  "energy": -108.330583,
+  "energy_raw": -108.33058275365985,
+  "claimed_energy": -108.33058275365985,
+  "matches": true,
+  "dims": [
+    1,
+    1
+  ],
+  "seconds_solve": 0.033209542045369744,
+  "gap_to_reference_mha": null,
+  "reference_label": "none",
+  "below_hf_mha": 0.0002463400079477651,
+  "below_ccsd_mha": -578.9376586079982,
+  "within_chemical_accuracy": null,
+  "grader_energy": -108.330583,
+  "grader_agrees": true,
+  "seconds_total": 4.121990791987628,
+  "result": "results/baselines/hf.npz",
+  "meta": {
+    "id": "hf",
+    "track": "baseline",
+    "description": "Hartree-Fock determinant only",
+    "command": "python -m n2sqd.baselines --only hf",
+    "seconds": 0.024283708014991134
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "energy": -108.9494014695643,
+  "dims": [
+    300,
+    300
+  ],
+  "spin_square": 0.9167816098494016,
+  "seconds": 23166.344121596,
+  "history": [
+    {
+      "phase": "refine-0",
+      "energy": -108.91774794573575,
+      "steps": [
+        {
+          "energy": -108.85917026292,
+          "enlarged_dims": [
+            553,
+            553
+          ],
+          "seconds": 391.79358436500115
+        },
+        {
+          "energy": -108.91616702521902,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1342.8892161330004
+        },
+        {
+          "energy": -108.91774794573189,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1504.8265776510016
+        },
+        {
+          "energy": -108.91774794573575,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1365.4952158849992
+        }
+      ]
+    },
+    {
+      "phase": "cycle-1",
+      "energy_after_oo": -108.93036323465684,
+      "energy_after_reselect": -108.93991924240501,
+      "oo_seconds": 5991.682948137997,
+      "oo_converged": false,
+      "reselect_steps": [
+        {
+          "energy": -108.93991924240501,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1379.4654305650038
+        },
+        {
+          "energy": -108.93980723081825,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1060.6274713210005
+        }
+      ]
+    },
+    {
+      "phase": "cycle-2",
+      "energy_after_oo": -108.94482194303815,
+      "energy_after_reselect": -108.947293789276,
+      "oo_seconds": 1295.2014766749999,
+      "oo_converged": true,
+      "reselect_steps": [
+        {
+          "energy": -108.947293789276,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1129.0704463469956
+        },
+        {
+          "energy": -108.94729378927596,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1170.5525602350026
+        }
+      ]
+    },
+    {
+      "phase": "cycle-3",
+      "energy_after_oo": -108.94791999345446,
+      "energy_after_reselect": -108.94932322132986,
+      "oo_seconds": 2196.7175942760005,
+      "oo_converged": true,
+      "reselect_steps": [
+        {
+          "energy": -108.94932322132979,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1034.181335936999
+        },
+        {
+          "energy": -108.94932322132986,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1087.3827622280005
+        }
+      ]
+    },
+    {
+      "phase": "cycle-4",
+      "energy_after_oo": -108.94940146954573,
+      "energy_after_reselect": -108.9494014695643,
+      "oo_seconds": 952.0870971439945,
+      "oo_converged": true,
+      "reselect_steps": [
+        {
+          "energy": -108.94939538309924,
+          "enlarged_dims": [
+            1000,
+            1000
+          ],
+          "seconds": 1070.9137185889995
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "t": 4605.413647937003,
+      "message": "after initial grow-prune: E = -108.917748",
+      "energy": -108.91774794573575,
+      "phase": "refine-0"
+    },
+    {
+      "t": 10643.650210955999,
+      "message": "cycle 1 OO: E = -108.930363 (casscf -108.930363, converged=False, 5992 s)",
+      "energy": -108.93036323465684,
+      "phase": "oo-1",
+      "casscf_energy": -108.93036323400506,
+      "converged": false,
+      "seconds": 5991.682948137997
+    },
+    {
+      "t": 13087.515423049004,
+      "message": "cycle 1 done: E = -108.939919 (gain 22.17 mHa)",
+      "energy": -108.93991924240501,
+      "phase": "cycle-1"
+    },
+    {
+      "t": 14441.519457168,
+      "message": "cycle 2 OO: E = -108.944822 (casscf -108.944822, converged=True, 1295 s)",
+      "energy": -108.94482194303815,
+      "phase": "oo-2",
+      "casscf_energy": -108.94482194265879,
+      "converged": true,
+      "seconds": 1295.2014766749999
+    },
+    {
+      "t": 16747.431167767,
+      "message": "cycle 2 done: E = -108.947294 (gain 7.37 mHa)",
+      "energy": -108.947293789276,
+      "phase": "cycle-2"
+    },
+    {
+      "t": 18981.002456775004,
+      "message": "cycle 3 OO: E = -108.947920 (casscf -108.947920, converged=True, 2197 s)",
+      "energy": -108.94791999345446,
+      "phase": "oo-3",
+      "casscf_energy": -108.94791999325219,
+      "converged": true,
+      "seconds": 2196.7175942760005
+    },
+    {
+      "t": 21105.889597817,
+      "message": "cycle 3 done: E = -108.949323 (gain 2.03 mHa)",
+      "energy": -108.94932322132986,
+      "phase": "cycle-3"
+    },
+    {
+      "t": 22091.122071455004,
+      "message": "cycle 4 OO: E = -108.949401 (casscf -108.949401, converged=True, 952 s)",
+      "energy": -108.94940146954573,
+      "phase": "oo-4",
+      "casscf_energy": -108.94940146949227,
+      "converged": true,
+      "seconds": 952.0870971439945
+    },
+    {
+      "t": 23166.299914876003,
+      "message": "cycle 4 done: E = -108.949401 (gain 0.08 mHa)",
+      "energy": -108.9494014695643,
+      "phase": "cycle-4"
+    }
+  ]
+}

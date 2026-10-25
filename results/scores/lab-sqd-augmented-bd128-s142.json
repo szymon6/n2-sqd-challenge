@@ -1,0 +1,69 @@
+{
+  "energy": -108.783919,
+  "energy_raw": -108.78391857201862,
+  "claimed_energy": -108.78391857201862,
+  "matches": true,
+  "dims": [
+    300,
+    300
+  ],
+  "seconds_solve": 37.75973699998576,
+  "gap_to_reference_mha": null,
+  "reference_label": "none",
+  "below_hf_mha": 453.336246340001,
+  "below_ccsd_mha": -125.6016586080051,
+  "within_chemical_accuracy": null,
+  "grader_energy": -108.783919,
+  "grader_agrees": true,
+  "seconds_total": 74.93556258297758,
+  "result": "results/baselines/lab-sqd-augmented-bd128-s142.npz",
+  "meta": {
+    "id": "lab-sqd-augmented-bd128-s142",
+    "track": "baseline",
+    "description": "lab SQD loop as given (100 reference strings pinned, MPS samples bond_dim=128, 2000 shots), seed 142",
+    "command": "python -m n2sqd.baselines --only lab-sqd-augmented --bond-dim 128 --shots 2000 --seeds 142",
+    "seed": 142,
+    "bond_dim": 128,
+    "shots": 2000,
+    "valid_fraction": 0.3345,
+    "history": [
+      [
+        -108.78391857201862,
+        -108.77782790294168,
+        -108.78304930673596,
+        -108.77322893041696,
+        -108.76717273485396
+      ],
+      [
+        -108.74603017190402,
+        -108.76057448459964,
+        -108.7484095422821,
+        -108.75258723466482,
+        -108.77223425813631
+      ],
+      [
+        -108.76403782701196,
+        -108.76202805168863,
+        -108.7521561453062,
+        -108.75539199627866,
+        -108.74860399186733
+      ],
+      [
+        -108.74956407913572,
+        -108.77455354899088,
+        -108.74892943799176,
+        -108.75014229384266,
+        -108.74833152333677
+      ],
+      [
+        -108.75154609454121,
+        -108.75229476910137,
+        -108.75717278532498,
+        -108.76309892054493,
+        -108.75132578232527
+      ]
+    ],
+    "seconds": 953.7438626669464,
+    "sampling_seconds": 312.81313837500056
+  }
+}
